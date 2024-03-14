@@ -67,7 +67,7 @@ class Llama:
             max_seq_len (int): Maximum sequence length for input text.
             max_batch_size (int): Maximum batch size for inference.
             model_parallel_size (Optional[int], optional): Number of model parallel processes.
-                If not provided, it's determined from the environment. Defaults to None.
+                If not provided, it's determined by the environment. Defaults to None.
 
         Returns:
             Llama: An instance of the Llama class with the loaded model and tokenizer.
